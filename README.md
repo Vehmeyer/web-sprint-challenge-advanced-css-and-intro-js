@@ -23,9 +23,22 @@ Commit your code regularly and meaningfully.
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
 1. How would you describe acessibility on the web to someone new to programming?
+
+Web accessibility involves the goal of making the web inclusive by trying to remove barriers that can prevent people from using or interacting with websites and apps. This is a wide encompassing topic that includes things like being mindful of people who might use screen readers, people who might have slow internet access, people who might have physical or cognitive impairments that could make it challenging to interact with websites in a way that many of us are accustomed to. Accessibility is about trying to make it possible for everyone to be able to use and access the internet.
+
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+
+    1. Images - Not everyone has access to high speed internet, so it's important to compress images so they will load for people who don't have access to fast internet. It's also important to add text to image alt attributes. This helps users who rely on screen readers since it will provide a description of what the image is.
+    2. Fonts - 
+    3. Headings - 
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+A variable is a foundational tool in JavaScript that acts like a container or wire that points to data/values. This is beneficial since you allows you to reference and retrieve this data. JavaScript has 3 ways to declare a variable - var, let, const - each with their own benefits and characteristics (i.e. var is function scoped, and let and const are block scoped).
+
 4. What is the purpose of using functions in code?
+
+Functions allow us to reuse pieces of code in our programs. They are essentially small computer programs that can perform a series of actions as needed. You can do many powerful things with functions like passing arguments into functions, using logic that analyzes arguments based on certain conditions, iterating over the blocks of code and repeating it as many times as needed, returning data etc.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
