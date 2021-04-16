@@ -258,39 +258,21 @@ Example born in 1901 and died in 1959 - included -- born in 1889 and died in 192
 If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 
 function get20s(array){
-  //will end up pushing final results to artists20thCentury array
-//   let artists20thCentury = [];
+    // let artists20thCentury = [];
+    // for(let i = 0; i < array.length; i++) {
+    //   artists[i].years = artists[i].years.split(" ");
+    //   artists[i].years[i] = artists[i].years[i].Number();
+    //   if(artists[i].years >=  1900 && artists[i].years < 2000){
+    //     artists20thCentury.push(array[i].name);
+    //   }
+    // }
+    // return artists20thCentury;
+  }
+ 
+get20s(artists);
+console.log(get20s(artists));
+
   
-//   let artistsYears = [...array];
-  
-//   for (let i = 0; i < artistsYears.length; i++) {
-    
-//     artistsYears = [artistsYears[i].years.split(" ")];
-//     artistsYears[i].years = artistsYears[i].year.split(" ");
-//     if(artistsYears[i].year[0] >= 1900 && artistsYears[i].year[0] <= 2000) {
-//       artists20thCentury.push(artistsYears[i].name);
-//     }
-//   }
-//   return artists20thCentury;
-// }
-  // let artistsNumericYears = [...artistsYears.map(i => Number(i))];
-
-  // artistsYears = artistYears.map(i => Number(i));
-  // let artistNumericYears = [...array];
-  // artistsNumericYears[i].years = artistsYears[i];
-//   for (let i = 0; i < array.length; i++) {
-//   if(artistsYears[i].years.includes()){
-//       artists20thCentury.push(array[i].name);  
-//    }
-//    }
-//    return artists20thCentury;
-// }
-
-// get20s(artists);
-// console.log(artists20thCentury);
-
-
-
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
  Use removeArtist to do the following:
  1. Receive an array
