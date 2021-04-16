@@ -180,15 +180,15 @@ nav span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height:35vh;
+    height:30vh;
     /* margin:5% 0; */
     margin-top: 5%;
     margin-bottom: 2%;
 }	
 
 .title-container h1 {
-    font-size: 3.5rem;
-    line-height: 1;
+    font-size: 3.8rem;
+    line-height: 1.25;
 }
 
 button {
@@ -214,8 +214,20 @@ button {
     width:60%;
     text-align:center;
 }
+
+.artist a{
+    font-size: 1.8rem;
+}
+
+.bio {
+    font-size: .9rem;
+    margin: 2%;
+    margin-bottom: 5%;
+}
+
 .artist img{
-    width:80%;
+    width:72.5%;
+    height: 14vh;
 }
 
 }
